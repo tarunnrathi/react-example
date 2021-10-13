@@ -1,22 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import ExampleHooks from "./Components/Hooks/ExampleHooks";
+//import TestComponent  from "./Components/Test/TestComponent";
+import CompA from './CompA';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <CompA />
+
+
+
+
+        {/* <TestComponent /> */}
+        {/* <TestComponent name="kapil" eyeColor="blue" age="23"></TestComponent>
+      <TestComponent name="Sachin" eyeColor="blue" ></TestComponent>
+      <TestComponent name="Nikhil" age="23"></TestComponent>
+      <TestComponent eyeColor="green" age="23"></TestComponent> */}
+        {/* <ExampleHooks name="Sabesan" /> */}
       </header>
     </div>
   );
