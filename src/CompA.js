@@ -5,9 +5,9 @@ const CompA = () => {
     const value = Math.random().toFixed(2);
 
     const memoizedValue = useMemo(() => value, []);
-    
-    
 
+    
+ 
     return (
         <>
             <h1>Generate Value={value}</h1>
