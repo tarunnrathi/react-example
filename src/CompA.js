@@ -3,9 +3,10 @@ import React, { createContext, useMemo, useState } from 'react';
 const CompA = () => {
     const [state, setState] = useState(false);
     const value = Math.random().toFixed(2);
-    
-    const memoizedValue = useMemo(() => value, []);
 
+    const memoizedValue = useMemo(() => value, []);
+    
+    
 
     return (
         <>
